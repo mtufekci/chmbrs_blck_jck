@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chambers.BlackJack", "Chambers.BlackJack\Chambers.BlackJack.csproj", "{8EE1D00C-DE45-4B92-A474-C6C6430531D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chambers.BlackJack.Tests", "Chambers.BlackJack.Tests\Chambers.BlackJack.Tests.csproj", "{0D0A682A-A40E-4EB7-8792-636585E13E29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chambers.BlackJack.IntegrationTests", "Chambers.BlackJack.IntegrationTests\Chambers.BlackJack.IntegrationTests.csproj", "{E92DA6B1-36E2-4581-976E-CAEFA440F58A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8EE1D00C-DE45-4B92-A474-C6C6430531D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EE1D00C-DE45-4B92-A474-C6C6430531D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EE1D00C-DE45-4B92-A474-C6C6430531D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EE1D00C-DE45-4B92-A474-C6C6430531D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D0A682A-A40E-4EB7-8792-636585E13E29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D0A682A-A40E-4EB7-8792-636585E13E29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D0A682A-A40E-4EB7-8792-636585E13E29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D0A682A-A40E-4EB7-8792-636585E13E29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E92DA6B1-36E2-4581-976E-CAEFA440F58A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E92DA6B1-36E2-4581-976E-CAEFA440F58A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E92DA6B1-36E2-4581-976E-CAEFA440F58A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E92DA6B1-36E2-4581-976E-CAEFA440F58A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

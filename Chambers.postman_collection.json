@@ -1,0 +1,253 @@
+{
+	"info": {
+		"_postman_id": "6b37a332-cfc9-49f6-8fca-19eae6c6777e",
+		"name": "Chambers",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Start",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Host",
+						"value": " localhost:5001",
+						"type": "text"
+					},
+					{
+						"key": "Connection",
+						"value": " keep-alive",
+						"type": "text"
+					},
+					{
+						"key": "Cache-Control",
+						"value": " max-age=0",
+						"type": "text"
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": " 1",
+						"type": "text"
+					},
+					{
+						"key": "User-Agent",
+						"value": " Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+						"type": "text"
+					},
+					{
+						"key": "Sec-Fetch-User",
+						"value": " ?1",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": " text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+						"type": "text"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": " none",
+						"type": "text"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": " navigate",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": " gzip, deflate, br",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Language",
+						"value": " en-GB,en-US;q=0.9,en;q=0.8",
+						"type": "text"
+					},
+					{
+						"key": "Cookie",
+						"value": " .AspNetCore.Antiforgery.1qH-ojoMiuU=CfDJ8JW7DCX0VXtKpY53TO7jiqMeBzSWbVvjvvmc8BNUkcCFbGcZXz510FEkt6SBmsa2czqpv42WV8g2maK_SZ5WTXTRNb4uiys1t3xCRI6n2cPz0CQAXyTJyTCId4dRGM7eHcj1OO6ivVH12nEHn9n2A74; .AspNetCore.Antiforgery.gcai1o1GvsU=CfDJ8JW7DCX0VXtKpY53TO7jiqM-CGvWy1EuXEd8ho7Ya_0tmK6pKMIOIbZlUtqdHex5BVW1E0dA7-3ZTLXtiuQJtwwFoHBVDKPHzBhX3kWBvy_u3UQHwVgeoe2lP1_wBtLkCiK77f-kMAtoHKbR1ykQfxs",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:5001/game/start",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"game",
+						"start"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Hit",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Host",
+						"value": " localhost:5001",
+						"type": "text"
+					},
+					{
+						"key": "Connection",
+						"value": " keep-alive",
+						"type": "text"
+					},
+					{
+						"key": "Cache-Control",
+						"value": " max-age=0",
+						"type": "text"
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"value": " 1",
+						"type": "text"
+					},
+					{
+						"key": "User-Agent",
+						"value": " Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+						"type": "text"
+					},
+					{
+						"key": "Sec-Fetch-User",
+						"value": " ?1",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": " text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+						"type": "text"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"value": " none",
+						"type": "text"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"value": " navigate",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Encoding",
+						"value": " gzip, deflate, br",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Language",
+						"value": " en-GB,en-US;q=0.9,en;q=0.8",
+						"type": "text"
+					},
+					{
+						"key": "Cookie",
+						"value": " .AspNetCore.Antiforgery.1qH-ojoMiuU=CfDJ8JW7DCX0VXtKpY53TO7jiqMeBzSWbVvjvvmc8BNUkcCFbGcZXz510FEkt6SBmsa2czqpv42WV8g2maK_SZ5WTXTRNb4uiys1t3xCRI6n2cPz0CQAXyTJyTCId4dRGM7eHcj1OO6ivVH12nEHn9n2A74; .AspNetCore.Antiforgery.gcai1o1GvsU=CfDJ8JW7DCX0VXtKpY53TO7jiqM-CGvWy1EuXEd8ho7Ya_0tmK6pKMIOIbZlUtqdHex5BVW1E0dA7-3ZTLXtiuQJtwwFoHBVDKPHzBhX3kWBvy_u3UQHwVgeoe2lP1_wBtLkCiK77f-kMAtoHKbR1ykQfxs",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:5001/game/hit",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"game",
+						"hit"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Stick",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Host",
+						"type": "text",
+						"value": " localhost:5001"
+					},
+					{
+						"key": "Connection",
+						"type": "text",
+						"value": " keep-alive"
+					},
+					{
+						"key": "Cache-Control",
+						"type": "text",
+						"value": " max-age=0"
+					},
+					{
+						"key": "Upgrade-Insecure-Requests",
+						"type": "text",
+						"value": " 1"
+					},
+					{
+						"key": "User-Agent",
+						"type": "text",
+						"value": " Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36"
+					},
+					{
+						"key": "Sec-Fetch-User",
+						"type": "text",
+						"value": " ?1"
+					},
+					{
+						"key": "Accept",
+						"type": "text",
+						"value": " text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+					},
+					{
+						"key": "Sec-Fetch-Site",
+						"type": "text",
+						"value": " none"
+					},
+					{
+						"key": "Sec-Fetch-Mode",
+						"type": "text",
+						"value": " navigate"
+					},
+					{
+						"key": "Accept-Encoding",
+						"type": "text",
+						"value": " gzip, deflate, br"
+					},
+					{
+						"key": "Accept-Language",
+						"type": "text",
+						"value": " en-GB,en-US;q=0.9,en;q=0.8"
+					},
+					{
+						"key": "Cookie",
+						"type": "text",
+						"value": " .AspNetCore.Antiforgery.1qH-ojoMiuU=CfDJ8JW7DCX0VXtKpY53TO7jiqMeBzSWbVvjvvmc8BNUkcCFbGcZXz510FEkt6SBmsa2czqpv42WV8g2maK_SZ5WTXTRNb4uiys1t3xCRI6n2cPz0CQAXyTJyTCId4dRGM7eHcj1OO6ivVH12nEHn9n2A74; .AspNetCore.Antiforgery.gcai1o1GvsU=CfDJ8JW7DCX0VXtKpY53TO7jiqM-CGvWy1EuXEd8ho7Ya_0tmK6pKMIOIbZlUtqdHex5BVW1E0dA7-3ZTLXtiuQJtwwFoHBVDKPHzBhX3kWBvy_u3UQHwVgeoe2lP1_wBtLkCiK77f-kMAtoHKbR1ykQfxs"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:5001/game/stick",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"game",
+						"stick"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

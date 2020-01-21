@@ -1,1 +1,1 @@
-chmbrs_blck_jck
+Please find example postman collection file (Chambers.postman_collection.json) for the api calls.
